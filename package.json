@@ -1,0 +1,16 @@
+{
+  "name": "Typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SkynI25/Typescript.git",
+  "author": "SkynI25 <rlxo1651@daum.net>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.1",
+    "tsc-watch": "^4.2.3",
+    "typescript": "^3.8.3"
+  }
+}
